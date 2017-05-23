@@ -1,0 +1,3 @@
+*.py[co]
+bower_components
+secrets.py

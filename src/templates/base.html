@@ -1,0 +1,41 @@
+{% load google_analytics %}
+{% load sass_tags %}
+{% load seo %}
+{% load staticfiles %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    {% get_metadata %}
+    <link rel="icon" type="image/png" href='{% static "img/hat.png" %}'/>
+    <!-- CSS     -->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="{% sass_src 'css/app.sass' %}" rel="stylesheet" type="text/css" />
+    <link href="{% static 'materialize/dist/css/materialize.min.css' %}" type="text/css" rel="stylesheet" />
+    <link href="{% static 'components-font-awesome/css/font-awesome.min.css' %}" type="text/css" rel="stylesheet" />
+
+    {% google_analytics %}
+</head>
+<body class="top">
+<!-- Navigation -->
+{% include "navigation_mb.html" %}
+{% include "navigation.html" %}
+
+<!--content  -->
+{% block content %}
+{% endblock content %}
+
+<!--Footer  -->
+<footer class="page-footer topBtn">
+    <div class="footer-copyright center">
+    Ryusukelavalla.com © 2017 - All Rights Reserved
+    </div>
+</footer>
+<!--Javascript  -->
+<script type="text/javascript" src='{% static 'jquery/dist/jquery.min.js' %}'></script>
+<script type="text/javascript" src='{% static 'materialize/dist/js/materialize.min.js' %}'></script>
+<script type="text/javascript" src='{% static 'typed.js/dist/typed.min.js' %}'></script>
+<script type="text/javascript" src='{% static 'js/main.js' %}'></script>
+
+</body>
+</html>

@@ -1,0 +1,152 @@
+.section {
+  padding-top: 50px !important;
+  padding-bottom: 70px !important; }
+
+.title {
+  padding-bottom: 27px !important; }
+  .title h4 {
+    font-weight: bold !important; }
+
+footer {
+  background-color: black !important; }
+
+.page-footer {
+  margin-top: 0px !important; }
+
+.footer-copyright {
+  color: white !important; }
+
+#sidenav-overlay {
+  background-color: white !important;
+  z-index: 1 !important; }
+
+.side-nav {
+  background-color: black !important; }
+
+.brand-logo {
+  color: white !important;
+  padding-left: 20px !important;
+  font-size: 23px !important; }
+
+.side_Img {
+  padding-top: 48px;
+  padding-bottom: 166px; }
+  .side_Img img {
+    height: 200px;
+    width: 200px; }
+
+.sideTitle {
+  color: white;
+  padding-bottom: 29px; }
+  .sideTitle h6 {
+    font-weight: bold;
+    font-size: 19px; }
+
+.side_menu a {
+  color: white !important;
+  font-weight: bold !important;
+  font-size: 24px !important; }
+
+.side_icons a {
+  display: inline-block !important;
+  padding-top: 28px !important; }
+
+.side_icons i {
+  color: white !important;
+  cursor: pointer; }
+
+.nav_right a {
+  color: white;
+  font-weight: bold; }
+
+.topSection {
+  background-image: url("/static/img/cover1.png");
+  background-size: cover;
+  color: white !important;
+  text-shadow: 2px 2px black; }
+
+.titleSection {
+  padding-top: 24px !important;
+  height: 37%; }
+  .titleSection h4 {
+    font-weight: bold; }
+
+.typed-cursor {
+  display: none; }
+
+.naviSection {
+  padding-top: 70px !important; }
+  .naviSection a {
+    color: white; }
+  .naviSection p {
+    font-weight: bold; }
+
+.profile {
+  padding-bottom: 30px !important; }
+  .profile img {
+    height: 200px;
+    width: 200px; }
+
+@media only screen and (min-width: 768px) {
+  .bio {
+    padding-top: 3% !important; } }
+
+.skills {
+  background-image: url("/static/img/cover2.jpg");
+  background-size: cover;
+  color: white;
+  text-shadow: 3px 3px black; }
+
+.each_skills h5 {
+  font-weight: bold; }
+
+.each_skills li {
+  font-weight: bold;
+  font-size: 16px; }
+
+.indivi_skills {
+  padding-bottom: 35px !important; }
+
+.card-title {
+  text-shadow: 2px 2px black; }
+
+.card-action a {
+  color: black !important;
+  font-weight: bold !important; }
+
+.contact {
+  background-image: url("/static/img/cover3.jpg");
+  background-size: cover;
+  color: white;
+  text-shadow: 2px 2px black; }
+
+.mediaBtn li {
+  padding-bottom: 10px; }
+
+.mediaBtn a {
+  text-shadow: none; }
+
+.button {
+  border-style: solid !important;
+  color: black !important;
+  background-color: white !important;
+  font-weight: bold !important; }
+
+.mediaLinks {
+  color: white !important;
+  text-shadow: 2px 2px black; }
+  .mediaLinks a:hover {
+    background-color: grey !important; }
+
+.sendBtn button {
+  background-color: white;
+  border-style: solid;
+  font-weight: bold;
+  color: black; }
+  .sendBtn button:hover {
+    background-color: grey !important; }
+
+form label {
+  color: white !important; }
+
+/*# sourceMappingURL=../../../../../../../../static/css/app.css.map */
